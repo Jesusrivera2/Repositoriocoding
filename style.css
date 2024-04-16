@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(14, 194, 194);
+    flex-direction: column;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    color: white;
+    position: fixed;
+}
+.navbar a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.titulo-nav{
+    font-size:28px;
+}
+.lugar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:190px;
+}
+.temp-semana{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top:200px ;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.temp-semana div{
+    height: 240px;
+    width: 190px;
+    background-color: rgb(228, 228, 228);
+    margin-right: 19px;
+    box-shadow: 1px 2px 3px 2px  rgb(175, 175, 175);
+    border-radius: 10px;
+    padding: 15px;
+}
+img{
+    height: 90px;
+    width: 90px;
+    padding-top: 10px;
+}
+footer{
+    position:fixed;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    padding-left:260px;
+}
+button{
+    background-color: yellow;
+    height: 25px;
+}
+#osorno{
+    display:none;
+}
+#rio-bueno{
+    display:none;
+}
+#la-union{
+    display:none;
+}
+#puerto-montt{
+    display:none;
+}
+#lago-ranco{
+    display:none;
+}
+
+

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="titulo-nav">
+            Tiempo Local
+        </h1>
+        <div class="lugares">
+            <a href="#" id="sosorno">Osorno</a>
+            <a href="#" id="srio-bueno">Rio Bueno</a>
+            <a href="#" id="sla-union">La Union</a>
+            <a href="#" id="spuerto-montt">Puerto Montt</a>
+            <a href="#" id="slago-ranco">Lago Ranco</a>
+        </div>
+        <div>
+            <p>Mostrar temperatura en
+                <select name="grados" id="grados">
+                    <option value="celcius">°C</option>
+                    <option value="Fahren">°F</option>
+                </select>
+            </p>
+        </div>
+    </nav>
+    <div id="osorno">
+        <div>
+            <h1 class="lugar">Osorno</h1>
+        </div>
+        <div class="temp-semana">
+            <div class="dia1">
+                <img src="parcialmente.jpg" alt="parcialmente">
+                <h2>
+                    Hoy
+                </h2>
+                <h3>Parcialmente Nublado</h3>
+                <p><span> 13</span><span>°C</span><span> 6</span><span>°C</span></p>
+            </div>
+            <div class="dia2">
+                <img src="mayormentesol.jpg" alt="mayormente">
+                <h2>
+                    Mañana
+                </h2>
+                <h3>Mayormente Soleado</h3>
+                <p><span>20</span><span>°C</span><span> 6</span><span>°C</span></p>
+            </div>
+            <div class="dia3">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Jueves
+                </h2>
+                <h3>Soleado</h3>
+                <p><span>19</span><span>°C</span><span> 4</span><span>°C</span></p>
+            </div>
+            <div class="dia4">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Viernes
+                </h2>
+                <h3>Soleado</h3>
+                <p><span>19</span><span>°C</span><span> 7</span><span>°C</span></p>
+            </div>
+            <div class="dia5">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Sabado
+                </h2>
+                <h3>Soleado</h3>
+                <p><span>22</span><span>°C</span><span> 7</span><span>°C</span></p>
+            </div>
+        </div>
+    </div>
+    <div id="rio-bueno">
+        <div>
+            <h1 class="lugar" id="titulo">Rio Bueno</h1>
+        </div>
+        <div class="temp-semana" id="temp-semana">
+            <div class="dia1">
+                <img src="mayormentesol.jpg" alt="mayormentesol">
+                <h2>
+                    Hoy
+                </h2>
+                <h3>Mayormente soleado</h3>
+                <p><span class="cambionum"> 20</span><span class="cambiotm">°C</span><span class="cambionum"> 4</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia2">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Mañana
+                </h2>
+                <h3>Soleado</h3>
+                <p><span>20</span><span>°C</span><span> 4</span><span>°C</span></p>
+            </div>
+            <div class="dia3">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Jueves
+                </h2>
+                <h3>Soleado</h3>
+                <p><span class="cambionum">22</span><span class="cambiotm">°C</span><span class="cambionum"> 6</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia4">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Viernes
+                </h2>
+                <h3>Soleado</h3>
+                <p><span class="cambionum">20</span><span class="cambiotm">°C</span><span class="cambionum"> 7</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia5">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Sabado
+                </h2>
+                <h3>Soleado</h3>
+                <p><span class="cambionum">22</span><span class="cambiotm">°C</span><span class="cambionum"> 7</span><span class="cambiotm">°C</span></p>
+            </div>
+        </div>
+    </div>
+    <div id="la-union">
+        <div>
+            <h1 class="lugar">La Union</h1>
+        </div>
+        <div class="temp-semana">
+            <div class="dia1">
+                <img src="parcialmente.jpg" alt="parcialmente">
+                <h2>
+                    Hoy
+                </h2>
+                <h3>Parcialmente Nublado</h3>
+                <p><span class="cambionum">20</span><span class="cambiotm">°C</span><span class="cambionum"> 4</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia2">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Mañana
+                </h2>
+                <h3>Soleado</h3>
+                <p><span class="cambionum">18</span><span class="cambiotm">°C</span><span class="cambionum"> 4</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia3">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Jueves
+                </h2>
+                <h3>Soleado</h3>
+                <p><span class="cambionum">19</span><span class="cambiotm">°C</span><span class="cambionum"> 5</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia4">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Viernes
+                </h2>
+                <h3>Soleado</h3>
+                <p><span class="cambionum">21</span><span class="cambiotm">°C</span><span class="cambionum"> 6</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia5">
+                <img src="mayormentesol.jpg" alt="mayormentesol">
+                <h2>
+                    Sabado
+                </h2>
+                <h3>Mayormente soleado</h3>
+                <p><span class="cambionum">20</span><span class="cambiotm">°C</span><span class="cambionum"> 6</span><span class="cambiotm">°C</span></p>
+            </div>
+        </div>
+    </div>
+    <div id="puerto-montt">
+        <div>
+            <h1 class="lugar">Puerto Montt</h1>
+        </div>
+        <div class="temp-semana">
+            <div class="dia1">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Hoy
+                </h2>
+                <h3>Soleado</h3>
+                <p><span class="cambionum"> 17</span><span class="cambiotm">°C</span><span class="cambionum"> 4</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia2">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Mañana
+                </h2>
+                <h3>Soleado</h3>
+                <p><span class="cambionum">17</span><span class="cambiotm">°C</span><span class="cambionum"> 4</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia3">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Jueves
+                </h2>
+                <h3>Soleado</h3>
+                <p><span class="cambionum">18</span><span class="cambiotm">°C</span><span class="cambionum"> 4</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia4">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Viernes
+                </h2>
+                <h3>Soleado</h3>
+                <p><span class="cambionum">18</span><span class="cambiotm">°C</span><span class="cambionum"> 7</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia5">
+                <img src="mayormentesol.jpg" alt="mayormentesol">
+                <h2>
+                    Sabado
+                </h2>
+                <h3>Mayormente soleado</h3>
+                <p><span class="cambionum">21</span><span class="cambiotm">°C</span><span class="cambionum"> 7</span><span class="cambiotm">°C</span></p>
+            </div>
+        </div>
+    </div>
+    <div id="lago-ranco">
+        <div>
+            <h1 class="lugar">Lago Ranco</h1>
+        </div>
+        <div class="temp-semana">
+            <div class="dia1">
+                <img src="parcialmente.jpg" alt="parcialmente">
+                <h2>
+                    Hoy
+                </h2>
+                <h3>Parcialmente Nublado</h3>
+                <p><span class="cambionum"> 19</span><span class="cambiotm">°C</span><span class="cambionum"> 9</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia2">
+                <img src="parcialmente.jpg" alt="parcialmente">
+                <h2>
+                    Mañana
+                </h2>
+                <h3>Parcialmente Nublado</h3>
+                <p><span class="cambionum">19</span><span class="cambiotm">°C</span><span class="cambionum"> 9</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia3">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Jueves
+                </h2>
+                <h3>Soleado</h3>
+                <p><span class="cambionum">20</span><span class="cambiotm">°C</span><span class="cambionum"> 12</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia4">
+                <img src="soleado.jpg" alt="soleado">
+                <h2>
+                    Viernes
+                </h2>
+                <h3>Soleado</h3>
+                <p><span class="cambionum">21</span><span class="cambiotm">°C</span><span class="cambionum"> 11</span><span class="cambiotm">°C</span></p>
+            </div>
+            <div class="dia5">
+                <img src="parcialmente.jpg" alt="parcialmente">
+                <h2>
+                    Sabado
+                </h2>
+                <h3>Parcialmente Nublado</h3>
+                <p><span class="cambionum">22</span><span class="cambiotm">°C</span><span class="cambionum"> 10</span><span class="cambiotm">°C</span></p>
+            </div>
+        </div>
+    </div>
+    <footer>Detente ¡Tiempo de cookies!. Usamos cookies (tristemente, no las comstibles) para personalizar contenido y
+        anuncios, proporcionar funciones de redes sociales y analizar nuestro traifico. <a href="">Leer mas</a>
+        <button id="eliminar">Aceptar</button></footer>
+</body>
+
+</html>
